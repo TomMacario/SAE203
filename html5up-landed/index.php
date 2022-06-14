@@ -18,6 +18,12 @@
 				<section id="banner">
 					<div class="content">
 						<header>
+							<?php
+							// Return current date from the remote server
+							$date = date('d-m-y h:i:s');
+							echo $date;
+							?>
+
 							<h2>InfoBlog, l'information de demain</h2>
 							<p>Ici pas de fake news<br />
 							Juste des informations confirmées</p>
