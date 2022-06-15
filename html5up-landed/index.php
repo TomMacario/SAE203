@@ -99,7 +99,6 @@
 					<p>+ 15 % : c’est la hausse du nombre d’arnaques recensées par le Service statistique ministériel de la Sécurité intérieure. Zoom sur l’une d’entre elles, la fraude aux crédits entre particuliers sur Internet.</p>
 				</header>
 				<ul class="actions">
-					<li><a href="left-sidebar.html" class="button">Learn More</a></li>
 					<?php
 					if (isset($_SESSION["loggedin"])) {
 					echo '<li><a href="left-sidebar.php" class="button">Learn More</a></li>';

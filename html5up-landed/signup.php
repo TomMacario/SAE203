@@ -100,6 +100,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <title>Inscription</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/connecter.css">
     <style>
         body{ font: 14px sans-serif; }
@@ -107,6 +108,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </style>
 </head>
 <body>
+    <?php
+    require "header.php";
+    ?>
     <div class="wrapper">
         <h2>Inscription</h2>
         <p>Veuillez entrer les infos nécessaires au formulaire.</p>
@@ -130,7 +134,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <input type="submit" value="Submit">
                 <input type="reset" value="Reset">
             </div>
-            <p>Vous avez déjà un comtpe ? <a href="login.php">Connectez-vous ici</a>.</p>
+            <p>Vous avez déjà un compte ? <a href="login.php">Connectez-vous ici</a>.</p>
         </form>
     </div>    
 </body>
