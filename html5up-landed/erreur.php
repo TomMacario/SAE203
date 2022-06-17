@@ -10,25 +10,9 @@
 	<body class="is-preload landing">
 		<div id="page-wrapper">
 			<!-- Header -->
-				<header id="header">
-					<h1 id="logo">InfoBlog</h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="index.php">Accueil</a></li>
-							<li>
-								<a href="#">Nos Articles</a>
-								<ul>
-									<li><a href="no-sidebar.html">Ukraine</a></li>
-									<li><a href="right-sidebar.html">Stade de France</a></li>
-									<li><a href="left-sidebar.html">Anarque</a></li>
-								</ul>
-							</li>
-							<li><a href="#">A Propos</a></li>
-							<li><a href="connecter.php" class="button primary">Se Connecter</a></li>
-						</ul>
-					</nav>
-				</header>
-		
+			<?php
+			require "header.php";
+			?>
 
 			<!-- Banner -->
 				<section id="banner">
